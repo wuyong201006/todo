@@ -1,0 +1,12 @@
+.app .item label {
+  display: inline-block;
+  width: 120px;
+}
+
+.app .item span{
+  cursor: pointer;
+}
+.app .item.active label{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
